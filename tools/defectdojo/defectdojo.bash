@@ -13,7 +13,7 @@ pip3 install requests
 # Run the importer
 python3 dojo_import.py \
 --url "http://$DOJO_IP" \
---token "API_KEY" \
+--token "d5ec74ba8c0e6a82e3bfe0b40c202d3fd60940e5" \
 --project_name "Juice Shop"
 
 cp -r $TOOLS/defectdojo/imports /opt/reports
